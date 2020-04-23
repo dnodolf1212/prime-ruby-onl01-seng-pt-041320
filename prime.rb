@@ -1,4 +1,4 @@
 def prime?(num)
   if num <= 1 
     return false 
-  else 
+  else (2..num -1)
