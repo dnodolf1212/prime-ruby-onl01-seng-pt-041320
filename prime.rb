@@ -1,6 +1,7 @@
-def prime?(int)
-  (int).each {|x| return false if (int % x) == 0}
-  true 
+def prime?(num)
+  (2..num -1).each {|x| return false if (num % x) == 0}
+  elsif
+    true 
   
   
 end
