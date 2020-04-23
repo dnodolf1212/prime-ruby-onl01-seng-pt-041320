@@ -1,4 +1,5 @@
 def prime?(num)
+  num = []
   count = 2 
   return false if num <= 1
   while count < num
