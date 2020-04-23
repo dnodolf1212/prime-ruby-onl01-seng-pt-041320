@@ -1,7 +1,8 @@
 def prime?(num)
   count = 2 
+  return false if num <= 1
   while count < num
-   return false if num % count == 0 || num <= 1
+   return false if num % count == 0
    num += 1 
   end
   true 
